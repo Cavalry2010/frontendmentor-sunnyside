@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <script defer src="./js/script.js"></script>
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <div class="overlay hidden"></div>
+    <header>
+      <nav>
+        <div>
+          <a href="#"
+            ><img class="logo" src="./images/logo.svg" alt="sunnyside"
+          /></a>
+        </div>
+        <ul class="navigation">
+          <li>
+            <a class="link" href="#">About</a>
+          </li>
+          <li>
+            <a class="link" href="#">Services</a>
+          </li>
+          <li>
+            <a class="link" href="#">Projects</a>
+          </li>
+          <li>
+            <a class="link link--cta" href="#">Contact</a>
+          </li>
+        </ul>
+        <button class="nav-mobile-btn" type="button" aria-label="Open/Close navigation">
+          <img class="btn-icon" src="./images/icon-hamburger.svg" alt="" id="open-nav"/>
+        </button>
+      </nav>
+      <div class="hero">
+        <h1 class="primary-heading">We are creatives</h1>
+        <a class="link link--arrow" href="#section-features"
+          ><img class="link-icon" src="./images/icon-arrow-down.svg" alt=""
+        /></a>
+      </div>
+    </header>
+    <main class="container">
+      <section id="section-features" class="section-features">
+        <div class="features-item features--transform-text">
+          <h2 class="item-heading">Transform your brand</h2>
+          <p class="item-text">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a class="link item-link" href="#">Learn More</a>
+        </div>
+        <div
+          class="features-item features--transform-image"
+          role="img"
+          aria-label="Egg in yellow background"
+        ></div>
+        <div
+          class="features-item features--stand-out-image"
+          role="img"
+          aria-label="Pink wine cup in pink background"
+        ></div>
+        <div class="features-item features--stand-out-text">
+          <h2 class="item-heading">Stand out to the right audience</h2>
+          <p class="item-text">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a class="link item-link" href="#">Learn More</a>
+        </div>
+        <div class="features-item features--graphic-design">
+          <h2 class="item-heading">Graphic Design</h2>
+          <p class="item-text">
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+        <div class="features-item features--photography">
+          <h2 class="item-heading">Photography</h2>
+          <p class="item-text">
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </section>
+      <section class="section-testimonials">
+        <h3 class="testimonials-heading">Client Testimonials</h3>
+        <div class="testimonials-box">
+          <div class="testimonial">
+            <img class="testimonial-img" src="./images/image-emily.jpg" alt="Emily R."
+            <blockquote>
+              <p class="testimonial-text">We
+               put our trust in Sunnyside and they delivered, making sure our needs were
+                met and deadlines were always hit.</p>
+            </blockquote>
+            <p class="testimonial-name">Emily R.</p>
+            <p class="testimonial-role">Marketing Director</p>
+          </div>
+          <div class="testimonial">
+            <img class="testimonial-img" src="./images/image-thomas.jpg" alt="Thomas S."
+            <blockquote>
+              <p class="testimonial-text">
+                Sunnyside’s
+    enthusiasm coupled with their keen interest in our brand’s success made it a
+    satisfying and enjoyable experience.</p>
+            </blockquote>
+            <p class="testimonial-name">Thomas S.</p>
+            <p class="testimonial-role">Chief Operating Officer</p>
+          </div>
+          <div class="testimonial">
+            <img class="testimonial-img" src="./images/image-jennie.jpg" alt="Jennie F."
+            <blockquote>
+              <p class="testimonial-text">Incredible end result! Our sales increased over 400% when we worked with
+                Sunnyside. Highly recommended!</p>
+            </blockquote>
+            <p class="testimonial-name">Jennie F.</p>
+            <p class="testimonial-role">Business Owner</p>
+          </div>
+        </div>
+      </section>
+      <section class="section-gallery">
+        <div class="gallery-img" role="img" aria-label="Milk bottles"></div>
+        <div class="gallery-img" role="img" aria-label="Orange in a plate"></div>
+        <div class="gallery-img" role="img" aria-label="Ice cream cone"></div>
+        <div class="gallery-img" role="img" aria-label="Sugar cubes"></div>
+      </section>
+    </main>
+    <div class="footer">
+      <!-- NOTE: IN A REAL WORLD PROJECT THIS WOULD BE THE FOOTER ELEMENT, BUT FOR THIS CHALLENGE THE FOOTER ELEMENT WILL BE THE ATTRIBUTION -->
+      <img class="logo" src="./images/logo.svg" alt="Sunnyside"/>
+      <ul class="footer-links">
+        <li>
+          <a class="link" href="#">About</a>
+        </li>
+        <li>
+          <a class="link" href="#">Services</a>
+        </li>
+        <li>
+          <a class="link" href="#">Projects</a>
+        </li>
+      </ul>
+      <ul class="social-links">
+        <li>
+          <a class="link" href="#"><img class="social-icon" src="./images/icon-facebook.svg" alt="Facebook"/> </a>
+        </li>
+        <li>
+          <a class="link" href="#"><img class="social-icon" src="./images/icon-instagram.svg" alt="Instagram"/> </a>
+        </li>
+        <li>
+          <a class="link" href="#"><img class="social-icon" src="./images/icon-twitter.svg" alt="Twitter"/> </a>
+        </li>
+        <li>
+          <a class="link" href="#"><img class="social-icon" src="./images/icon-pinterest.svg" alt="Pinterest"/> </a>
+        </li>
+      </ul>
+    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Alejandro Perdomo</a>.
+      </div>
+    </footer>
+  </body>
+</html>

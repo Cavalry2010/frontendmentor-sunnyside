@@ -1,0 +1,215 @@
+@media (max-width: 26em) {
+  /* HEADER START */
+
+  header {
+    background-image: url("../images/mobile/image-header.jpg");
+    background-size: 100%;
+    min-height: 143.46vw;
+    position: relative;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  nav {
+    padding: 3rem 2rem;
+  }
+
+  .navigation {
+    flex-direction: column;
+    gap: 3rem;
+    background-color: #fff;
+    width: 89%;
+    padding: 4.5rem 0;
+    visibility: hidden;
+    animation: popoff 0.3s;
+    transition: visibility 0.3s;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.15);
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 11rem;
+    z-index: 2;
+  }
+
+  .navigation::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 3rem solid transparent;
+    border-right: 2.5rem solid #fff;
+    border-top: 2.5rem solid transparent;
+    transform: translateY(-100%);
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .link:link,
+  .link:visited {
+    font-size: 1.9rem;
+    color: hsl(232, 10%, 55%);
+  }
+
+  .link--cta:link,
+  .link--cta:visited {
+    display: block;
+    font-size: 1.5rem;
+    color: #23303e;
+    background-color: #fad400;
+  }
+
+  .nav-mobile-btn {
+    display: block;
+    border: none;
+    background-color: transparent;
+    z-index: 2;
+    transition: opacity 0.3s;
+  }
+
+  .primary-heading {
+    font-size: 3.5rem;
+  }
+
+  .link--arrow {
+    transform: translate(-50%, 20%);
+  }
+
+  .open .navigation {
+    visibility: visible;
+    animation: popup 0.3s;
+  }
+
+  .open .nav-mobile-btn {
+    opacity: 0.75;
+  }
+
+  /* HEADER END */
+
+  /* FEATURES START */
+
+  .section-features {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .features-item {
+    padding: 6rem 2rem 6.5rem;
+    text-align: center;
+  }
+
+  .item-heading {
+    font-size: 3.2rem;
+  }
+
+  .item-text {
+    margin-bottom: 3rem;
+  }
+
+  .item-link:link,
+  .item-link:visited {
+    margin: 0;
+  }
+
+  .features--transform-image {
+    grid-row: 1;
+    background-image: url("../images/mobile/image-transform.jpg");
+    padding: 0;
+    padding-bottom: 83.333333%;
+  }
+
+  .features--stand-out-image {
+    background-image: url("../images/mobile/image-stand-out.jpg");
+    padding: 0;
+    padding-bottom: 83.333333%;
+  }
+
+  .features--stand-out-text.features-item {
+    padding: 6rem 2rem 6.5rem;
+  }
+
+  .features--graphic-design {
+    padding: 40rem 2rem 5rem;
+    background-image: url("../images/mobile/image-graphic-design.jpg");
+    background-size: 100% 100%;
+  }
+
+  .features--photography {
+    padding: 40rem 2rem 6rem;
+    background-image: url("../images/mobile/image-photography.jpg");
+    background-size: 100% 100%;
+  }
+
+  /* FEATURES END */
+
+  /* TESTIMONIALS START */
+
+  .section-testimonials {
+    padding: 6rem 2.25rem 9rem;
+  }
+
+  .testimonials-heading {
+    font-size: 1.5rem;
+    margin-bottom: 6rem;
+  }
+
+  .testimonials-box {
+    grid-template-columns: 1fr;
+    row-gap: 7rem;
+  }
+
+  .testimonial-img {
+    margin-bottom: 3rem;
+  }
+
+  .testimonial-text {
+    margin-bottom: 3.5rem;
+  }
+
+  /* TESTIMONIALS END */
+
+  /* GALLERY START */
+
+  .section-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery-img {
+    padding-bottom: 100%;
+  }
+
+  .gallery-img:nth-child(1) {
+    background-image: url("../images/mobile/image-gallery-milkbottles.jpg");
+  }
+
+  .gallery-img:nth-child(2) {
+    background-image: url("../images/mobile/image-gallery-orange.jpg");
+  }
+
+  .gallery-img:nth-child(3) {
+    background-image: url("../images/mobile/image-gallery-cone.jpg");
+  }
+
+  .gallery-img:nth-child(4) {
+    background-image: url("../images/mobile/image-gallery-sugar-cubes.jpg");
+  }
+
+  /* GALLERY END */
+
+  /* FOOTER START */
+
+  .footer {
+    padding: 6rem 0;
+  }
+
+  .footer .logo {
+    width: 45%;
+  }
+}
+
+/* FOOTER END */
