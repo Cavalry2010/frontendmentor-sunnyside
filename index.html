@@ -46,13 +46,25 @@
             <a class="link link--cta" href="#">Contact</a>
           </li>
         </ul>
-        <button class="nav-mobile-btn" type="button" aria-label="Open/Close navigation">
-          <img class="btn-icon" src="./images/icon-hamburger.svg" alt="" id="open-nav"/>
+        <button
+          class="nav-mobile-btn"
+          type="button"
+          aria-label="Open/Close navigation"
+        >
+          <img
+            class="btn-icon"
+            src="./images/icon-hamburger.svg"
+            alt=""
+            id="open-nav"
+          />
         </button>
       </nav>
       <div class="hero">
         <h1 class="primary-heading">We are creatives</h1>
-        <a class="link link--arrow" href="#section-features"
+        <a
+          class="link link--arrow"
+          href="#section-features"
+          aria-label="Learn more about Sunnyside"
           ><img class="link-icon" src="./images/icon-arrow-down.svg" alt=""
         /></a>
       </div>
@@ -107,31 +119,46 @@
         <h3 class="testimonials-heading">Client Testimonials</h3>
         <div class="testimonials-box">
           <div class="testimonial">
-            <img class="testimonial-img" src="./images/image-emily.jpg" alt="Emily R."
+            <img
+              class="testimonial-img"
+              src="./images/image-emily.jpg"
+              alt="Emily R."
+            />
             <blockquote>
-              <p class="testimonial-text">We
-               put our trust in Sunnyside and they delivered, making sure our needs were
-                met and deadlines were always hit.</p>
+              <p class="testimonial-text">
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
             </blockquote>
             <p class="testimonial-name">Emily R.</p>
             <p class="testimonial-role">Marketing Director</p>
           </div>
           <div class="testimonial">
-            <img class="testimonial-img" src="./images/image-thomas.jpg" alt="Thomas S."
+            <img
+              class="testimonial-img"
+              src="./images/image-thomas.jpg"
+              alt="Thomas S."
+            />
             <blockquote>
               <p class="testimonial-text">
-                Sunnyside’s
-    enthusiasm coupled with their keen interest in our brand’s success made it a
-    satisfying and enjoyable experience.</p>
+                Sunnyside’s enthusiasm coupled with their keen interest in our
+                brand’s success made it a satisfying and enjoyable experience.
+              </p>
             </blockquote>
             <p class="testimonial-name">Thomas S.</p>
             <p class="testimonial-role">Chief Operating Officer</p>
           </div>
           <div class="testimonial">
-            <img class="testimonial-img" src="./images/image-jennie.jpg" alt="Jennie F."
+            <img
+              class="testimonial-img"
+              src="./images/image-jennie.jpg"
+              alt="Jennie F."
+            />
             <blockquote>
-              <p class="testimonial-text">Incredible end result! Our sales increased over 400% when we worked with
-                Sunnyside. Highly recommended!</p>
+              <p class="testimonial-text">
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </p>
             </blockquote>
             <p class="testimonial-name">Jennie F.</p>
             <p class="testimonial-role">Business Owner</p>
@@ -139,41 +166,72 @@
         </div>
       </section>
       <section class="section-gallery">
-        <div class="gallery-img" role="img" aria-label="Milk bottles"></div>
-        <div class="gallery-img" role="img" aria-label="Orange in a plate"></div>
-        <div class="gallery-img" role="img" aria-label="Ice cream cone"></div>
-        <div class="gallery-img" role="img" aria-label="Sugar cubes"></div>
+        <h2 class="sr-only">Image Gallery</h2>
+        <div class="gallery">
+          <div class="gallery-img" role="img" aria-label="Milk bottles"></div>
+          <div
+            class="gallery-img"
+            role="img"
+            aria-label="Orange in a plate"
+          ></div>
+          <div class="gallery-img" role="img" aria-label="Ice cream cone"></div>
+          <div class="gallery-img" role="img" aria-label="Sugar cubes"></div>
+        </div>
       </section>
+      <div class="footer">
+        <!-- NOTE: IN A REAL WORLD PROJECT THIS WOULD BE THE FOOTER ELEMENT, BUT FOR THIS CHALLENGE THE FOOTER ELEMENT WILL BE THE ATTRIBUTION -->
+        <img class="logo" src="./images/logo.svg" alt="Sunnyside" />
+        <ul class="footer-links">
+          <li>
+            <a class="link" href="#">About</a>
+          </li>
+          <li>
+            <a class="link" href="#">Services</a>
+          </li>
+          <li>
+            <a class="link" href="#">Projects</a>
+          </li>
+        </ul>
+        <ul class="social-links">
+          <li>
+            <a class="link" href="#"
+              ><img
+                class="social-icon"
+                src="./images/icon-facebook.svg"
+                alt="Facebook"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="link" href="#"
+              ><img
+                class="social-icon"
+                src="./images/icon-instagram.svg"
+                alt="Instagram"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="link" href="#"
+              ><img
+                class="social-icon"
+                src="./images/icon-twitter.svg"
+                alt="Twitter"
+              />
+            </a>
+          </li>
+          <li>
+            <a class="link" href="#"
+              ><img
+                class="social-icon"
+                src="./images/icon-pinterest.svg"
+                alt="Pinterest"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
     </main>
-    <div class="footer">
-      <!-- NOTE: IN A REAL WORLD PROJECT THIS WOULD BE THE FOOTER ELEMENT, BUT FOR THIS CHALLENGE THE FOOTER ELEMENT WILL BE THE ATTRIBUTION -->
-      <img class="logo" src="./images/logo.svg" alt="Sunnyside"/>
-      <ul class="footer-links">
-        <li>
-          <a class="link" href="#">About</a>
-        </li>
-        <li>
-          <a class="link" href="#">Services</a>
-        </li>
-        <li>
-          <a class="link" href="#">Projects</a>
-        </li>
-      </ul>
-      <ul class="social-links">
-        <li>
-          <a class="link" href="#"><img class="social-icon" src="./images/icon-facebook.svg" alt="Facebook"/> </a>
-        </li>
-        <li>
-          <a class="link" href="#"><img class="social-icon" src="./images/icon-instagram.svg" alt="Instagram"/> </a>
-        </li>
-        <li>
-          <a class="link" href="#"><img class="social-icon" src="./images/icon-twitter.svg" alt="Twitter"/> </a>
-        </li>
-        <li>
-          <a class="link" href="#"><img class="social-icon" src="./images/icon-pinterest.svg" alt="Pinterest"/> </a>
-        </li>
-      </ul>
-    </div>
     <footer>
       <div class="attribution">
         Challenge by

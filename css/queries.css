@@ -175,7 +175,7 @@
 
   /* GALLERY START */
 
-  .section-gallery {
+  .gallery {
     grid-template-columns: 1fr 1fr;
   }
 
