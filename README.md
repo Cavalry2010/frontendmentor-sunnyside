@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-sunnyside-landing-page-with-sticky-nav-and-mobile-nav-5FxuWnkYrJ)
 - Live Site URL: [Sunnyside Landing Page](https://sunnyside-alejandro.netlify.app)
 
 ## My process
